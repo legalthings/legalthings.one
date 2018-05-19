@@ -54,6 +54,20 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;  
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
 .site-title {
   color: #231d39;
   text-align: center;
@@ -126,10 +140,6 @@ body {
   position:absolute;
 }
 
-a {
-  text-decoration: none;
-}
-
 .buttons {
   margin-top: 20px;
   text-align: center;
@@ -184,7 +194,7 @@ a {
 }
 
 .social-proof {
-  margin: 50px auto 20px;
+  margin: 50px auto 40px;
   font-size: 4vw;
   max-width: 600px;
   text-align: center;
@@ -200,5 +210,16 @@ a {
   .social-proof {
     font-size: 24px;
   }
+}
+
+.partnerships {
+  text-align: center;
+  color: #333;
+}
+.partnerships img {
+  height: 40px;
+}
+.partnerships .waves-partnership img {
+  padding-left: 25px;
 }
 
